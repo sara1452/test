@@ -1,20 +1,26 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
 
-}
 header {
     width: 100%;
-    height: 70px;
+    position: relative;
     padding: 15px 30px;
 }
 
 .chat {
     float: left;
-    height: 100%;
+    height: 35px;
 }
 
 .chat svg {
@@ -22,19 +28,22 @@ header {
     height: 28px;
     border-radius: 6px;
     padding: 4px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .chat span {
     font-weight: 600;
     font-size: 18px;
     margin-left: 8px;
     margin: 0 auto;
 }
+
 .navbar {
     position: absolute;
     left: 25%;
     top: 20px;
 }
+
 .navbar li {
     display: inline-block;
     margin: 0 3px;
@@ -46,11 +55,13 @@ header {
     font-size: 14px;
     font-weight: 400;
 }
+
 .connect {
     float: right;
     height: 100%;
 }
-.login-btn{
+
+.login-btn {
     border: none;
     padding: 3px 16px;
     border-radius: 20px;
@@ -58,35 +69,41 @@ header {
     background-color: #0D0D0D;
     color: white;
 }
-.signup-btn{
+
+.signup-btn {
     color: #000;
     padding: 3px 16px;
     border-radius: 20px;
     margin-right: 12px;
 }
+
 .connect img {
     width: 18px;
     height: 18px;
 }
+
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
-.search{
+
+.search {
     padding: 40px 20px;
     color: black;
     margin: 0 auto;
-  text-align: center;
-  margin-top: 10%;
+    text-align: center;
+    margin-top: 10%;
 }
+
 .search h1 {
     margin-bottom: 24px;
     color: black;
 }
-.search > section {
+
+.search>section {
     width: 100%;
     max-width: 700px;
     background: white;
@@ -96,6 +113,7 @@ header {
     flex-direction: column;
     margin: 0 auto;
 }
+
 .search input {
     width: 100%;
     border: none;
@@ -104,11 +122,13 @@ header {
     color: #202124;
     background: transparent;
 }
+
 .tools-bar {
     align-items: center;
     width: 100%;
     display: block;
 }
+
 .tool-btn {
     display: inline-block;
     align-items: center;
@@ -119,6 +139,7 @@ header {
     color: #3c4043;
     margin-left: 8px;
 }
+
 .tool-btn .material-symbols-outlined,
 .voice-btn .material-symbols-outlined {
     font-size: 18px;
@@ -135,5 +156,5 @@ header {
     padding: 8px 16px;
     font-size: 14px;
     color: #3c4043;
-    margin-left: auto; 
+    margin-left: auto;
 }
